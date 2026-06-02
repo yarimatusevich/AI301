@@ -1,4 +1,4 @@
-# Contribution [#1]: [Issue Title]
+# Contribution [#1]: Pandas DataFrame.update Silent Error
 
 **Contribution Number:** 1
 **Student:** Yaroslav Matusevich  
