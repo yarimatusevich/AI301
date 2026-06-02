@@ -1,9 +1,9 @@
-# Contribution [#]: [Issue Title]
+# Contribution [#1]: [Issue Title]
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1
+**Student:** Yaroslav Matusevich  
+**Issue:** https://github.com/pandas-dev/pandas/issues/19905
+**Status:** Phase 1 Complete
 
 ---
 
@@ -11,6 +11,10 @@
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 
+
+This issue interests me because pandas is a library I use regularly in my Python work, and contributing to it feels like a natural next step in deepening my understanding of how it actually works under the hood. The bug itself is a silent failure that definitely is a headache to encounter when using the library, so I want to fix it.
+
+Solving this bug requires Python, which I have substantial experience with, and this feels like a good opportunity to get hands-on experience contributing code to a large, established codebase. I want to move beyond writing Python in isolation and understand how production-scale projects are structured and maintained.
 ---
 
 ## Understanding the Issue
