@@ -21,19 +21,19 @@ Solving this bug requires Python, which I have substantial experience with, and 
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+DataFrame.update() modifies a data frame using the values from another data frame. When you pass raise_conflict=1, as a parameter Pandas ignores it and does not raise any errors.
 
 ### Expected Behavior
 
-[What should happen?]
+When a user passes an invalid or unrecognized keyword argument to DataFrame.update(), pandas should raise an error.
 
 ### Current Behavior
 
-[What actually happens?]
+Passing raise_conflict=True (or any unrecognized keyword) to DataFrame.update() does nothing.
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+pandas/core/frame.py
 
 ---
 
@@ -42,12 +42,13 @@ Solving this bug requires Python, which I have substantial experience with, and 
 ### Environment Setup
 
 [Notes on setting up your local development environment - challenges you faced, how you solved them]
+Setup a python virtual environment and installed Pandas using pip.
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Created two data frames with overlapping values.
+2. Call df.update(raise_conflict=True) on one the data frames using the other.
+3. No errors are raied and df1 (the oen I called .update on) is silently updated.
 
 ### Reproduction Evidence
 
