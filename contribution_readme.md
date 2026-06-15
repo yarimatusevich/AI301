@@ -52,9 +52,11 @@ Setup a python virtual environment and installed Pandas using pip.
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **Commit showing reproduction:** https://github.com/yarimatusevich/AI301/blob/main/error_reprod.py
+- **Screenshots/logs:** <img width="246" height="208" alt="image" src="https://github.com/user-attachments/assets/966cd34b-8140-48a2-ad47-19939fa9afec" />
+- **My findings:**
+- Pandas indeed does not raise a conflict error if there are mismatching data types between two dataframes. Although the .update function still behaves correctly (not changing anything), the error silently falls through as a result this keeps user in the
+- dark as to what actually went wrong. 
 
 ---
 
