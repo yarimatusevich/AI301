@@ -80,7 +80,7 @@ Using UMPIRE framework (adapted):
 2. If intersection is empty but other is non-empty raise a UserWarning.
 3. Update docsdtrings to mention the new warning so it's documented.
 
-**Implement:** [Link to your branch/commits as you work]
+**Implement:** https://github.com/yarimatusevich/pandas/commit/e24b86e610b2b550b4b02221a5f9d716f732427b
 
 **Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
 
